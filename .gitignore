@@ -1,13 +1,100 @@
-*.bak
-*.db
-*.avi
-*.pdf
-*.ps
-*.mid
-*.midi
-*.mp3
-*.aif
-*.wav
-# Some versions of Finale have a bug and randomly save extra copies of
-# the music source as "<Filename> copy.mus"
-*copy.mus
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Ambulance Details</title>
+<style>
+  body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:#f4f9fb;
+    color:#222;
+  }
+  .container{
+    max-width:800px;
+    margin:auto;
+    background:#fff;
+    padding:20px;
+    border-radius:14px;
+    box-shadow:0 6px 16px rgba(0,0,0,0.1);
+  }
+  h1{
+    text-align:center;
+    color:#0077c8;
+    margin-bottom:20px;
+  }
+  .section{
+    margin-bottom:20px;
+    padding:15px;
+    border:1px solid #e0e6ea;
+    border-radius:10px;
+    background:#fafcfd;
+  }
+  .section h2{
+    margin-top:0;
+    font-size:1.2rem;
+    color:#005fa1;
+  }
+  .info{margin:6px 0;}
+  .info strong{display:inline-block;width:160px;color:#333;}
+  .status{
+    padding:12px;
+    border-radius:10px;
+    background:#e6f4ea;
+    color:#1a7a3f;
+    font-weight:bold;
+    margin-top:10px;
+  }
+  .btn{
+    display:inline-block;
+    margin-top:15px;
+    background:#0077c8;
+    color:#fff;
+    padding:10px 16px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:600;
+  }
+  .btn:hover{background:#005fa1;}
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚑 AI Ambulance Details</h1>
+
+    <div class="section">
+      <h2>Ambulance Info</h2>
+      <div class="info"><strong>Ambulance ID:</strong> AMB-5023</div>
+      <div class="info"><strong>Driver Name:</strong> Ramesh Kumar</div>
+      <div class="info"><strong>AI Assistant:</strong> MedBot v3.2</div>
+      <div class="info"><strong>Current Location:</strong> 3.2 km from City Hospital</div>
+    </div>
+
+    <div class="section">
+      <h2>Patient Info</h2>
+      <div class="info"><strong>Name:</strong> Meena Sharma</div>
+      <div class="info"><strong>Age:</strong> 52</div>
+      <div class="info"><strong>Condition:</strong> Severe Asthma Attack</div>
+      <div class="info"><strong>Allergies:</strong> Penicillin</div>
+    </div>
+
+    <div class="section">
+      <h2>Vital Signs (Live)</h2>
+      <div class="info"><strong>Heart Rate:</strong> 110 bpm</div>
+      <div class="info"><strong>Blood Pressure:</strong> 150/95 mmHg</div>
+      <div class="info"><strong>Oxygen Level:</strong> 88%</div>
+      <div class="info"><strong>Temperature:</strong> 99.5°F</div>
+    </div>
+
+    <div class="section">
+      <h2>Status</h2>
+      <div class="status">🚨 En Route — Estimated Arrival: 6 mins</div>
+    </div>
+
+    <a href="#" class="btn">Send Report to Hospital</a>
+  </div>
+</body>
+</html>
